@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4A2FCA1B99472B00A8819C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A2FC91B99472B00A8819C /* AppDelegate.swift */; };
+		4B4A2FCC1B99472B00A8819C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A2FCB1B99472B00A8819C /* ViewController.swift */; };
+		4B4A2FCF1B99472B00A8819C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A2FCD1B99472B00A8819C /* Main.storyboard */; };
+		4B4A2FD11B99472B00A8819C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A2FD01B99472B00A8819C /* Images.xcassets */; };
+		4B4A2FD41B99472B00A8819C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A2FD21B99472B00A8819C /* LaunchScreen.xib */; };
+		4B4A2FE01B99472B00A8819C /* MelissaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A2FDF1B99472B00A8819C /* MelissaAppTests.swift */; };
+		4B4A2FEA1B9A358F00A8819C /* MelissaVid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A2FE91B9A344700A8819C /* MelissaVid.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B4A2FDA1B99472B00A8819C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4A2FBC1B99472B00A8819C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4A2FC31B99472B00A8819C;
+			remoteInfo = MelissaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B4A2FC41B99472B00A8819C /* MelissaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelissaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4A2FC81B99472B00A8819C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4A2FC91B99472B00A8819C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B4A2FCB1B99472B00A8819C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B4A2FCE1B99472B00A8819C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B4A2FD01B99472B00A8819C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B4A2FD31B99472B00A8819C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4B4A2FD91B99472B00A8819C /* MelissaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelissaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4A2FDE1B99472B00A8819C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4A2FDF1B99472B00A8819C /* MelissaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelissaAppTests.swift; sourceTree = "<group>"; };
+		4B4A2FE91B9A344700A8819C /* MelissaVid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MelissaVid.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4A2FC11B99472B00A8819C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4A2FD61B99472B00A8819C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4A2FBB1B99472B00A8819C = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FC61B99472B00A8819C /* MelissaApp */,
+				4B4A2FDC1B99472B00A8819C /* MelissaAppTests */,
+				4B4A2FC51B99472B00A8819C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4A2FC51B99472B00A8819C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FC41B99472B00A8819C /* MelissaApp.app */,
+				4B4A2FD91B99472B00A8819C /* MelissaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4A2FC61B99472B00A8819C /* MelissaApp */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FC91B99472B00A8819C /* AppDelegate.swift */,
+				4B4A2FCB1B99472B00A8819C /* ViewController.swift */,
+				4B4A2FCD1B99472B00A8819C /* Main.storyboard */,
+				4B4A2FD01B99472B00A8819C /* Images.xcassets */,
+				4B4A2FE91B9A344700A8819C /* MelissaVid.mp4 */,
+				4B4A2FD21B99472B00A8819C /* LaunchScreen.xib */,
+				4B4A2FC71B99472B00A8819C /* Supporting Files */,
+			);
+			path = MelissaApp;
+			sourceTree = "<group>";
+		};
+		4B4A2FC71B99472B00A8819C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FC81B99472B00A8819C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B4A2FDC1B99472B00A8819C /* MelissaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FDF1B99472B00A8819C /* MelissaAppTests.swift */,
+				4B4A2FDD1B99472B00A8819C /* Supporting Files */,
+			);
+			path = MelissaAppTests;
+			sourceTree = "<group>";
+		};
+		4B4A2FDD1B99472B00A8819C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A2FDE1B99472B00A8819C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4A2FC31B99472B00A8819C /* MelissaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4A2FE31B99472B00A8819C /* Build configuration list for PBXNativeTarget "MelissaApp" */;
+			buildPhases = (
+				4B4A2FC01B99472B00A8819C /* Sources */,
+				4B4A2FC11B99472B00A8819C /* Frameworks */,
+				4B4A2FC21B99472B00A8819C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelissaApp;
+			productName = MelissaApp;
+			productReference = 4B4A2FC41B99472B00A8819C /* MelissaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B4A2FD81B99472B00A8819C /* MelissaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4A2FE61B99472B00A8819C /* Build configuration list for PBXNativeTarget "MelissaAppTests" */;
+			buildPhases = (
+				4B4A2FD51B99472B00A8819C /* Sources */,
+				4B4A2FD61B99472B00A8819C /* Frameworks */,
+				4B4A2FD71B99472B00A8819C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4A2FDB1B99472B00A8819C /* PBXTargetDependency */,
+			);
+			name = MelissaAppTests;
+			productName = MelissaAppTests;
+			productReference = 4B4A2FD91B99472B00A8819C /* MelissaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4A2FBC1B99472B00A8819C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = NoahBragg;
+				TargetAttributes = {
+					4B4A2FC31B99472B00A8819C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4B4A2FD81B99472B00A8819C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4B4A2FC31B99472B00A8819C;
+					};
+				};
+			};
+			buildConfigurationList = 4B4A2FBF1B99472B00A8819C /* Build configuration list for PBXProject "MelissaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B4A2FBB1B99472B00A8819C;
+			productRefGroup = 4B4A2FC51B99472B00A8819C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4A2FC31B99472B00A8819C /* MelissaApp */,
+				4B4A2FD81B99472B00A8819C /* MelissaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4A2FC21B99472B00A8819C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4A2FCF1B99472B00A8819C /* Main.storyboard in Resources */,
+				4B4A2FD41B99472B00A8819C /* LaunchScreen.xib in Resources */,
+				4B4A2FEA1B9A358F00A8819C /* MelissaVid.mp4 in Resources */,
+				4B4A2FD11B99472B00A8819C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4A2FD71B99472B00A8819C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4A2FC01B99472B00A8819C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4A2FCC1B99472B00A8819C /* ViewController.swift in Sources */,
+				4B4A2FCA1B99472B00A8819C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4A2FD51B99472B00A8819C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4A2FE01B99472B00A8819C /* MelissaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4A2FDB1B99472B00A8819C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4A2FC31B99472B00A8819C /* MelissaApp */;
+			targetProxy = 4B4A2FDA1B99472B00A8819C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B4A2FCD1B99472B00A8819C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4A2FCE1B99472B00A8819C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B4A2FD21B99472B00A8819C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4A2FD31B99472B00A8819C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4A2FE11B99472B00A8819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B4A2FE21B99472B00A8819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4A2FE41B99472B00A8819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MelissaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4B4A2FE51B99472B00A8819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MelissaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4B4A2FE71B99472B00A8819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MelissaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelissaApp.app/MelissaApp";
+			};
+			name = Debug;
+		};
+		4B4A2FE81B99472B00A8819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MelissaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelissaApp.app/MelissaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4A2FBF1B99472B00A8819C /* Build configuration list for PBXProject "MelissaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4A2FE11B99472B00A8819C /* Debug */,
+				4B4A2FE21B99472B00A8819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4A2FE31B99472B00A8819C /* Build configuration list for PBXNativeTarget "MelissaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4A2FE41B99472B00A8819C /* Debug */,
+				4B4A2FE51B99472B00A8819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4A2FE61B99472B00A8819C /* Build configuration list for PBXNativeTarget "MelissaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4A2FE71B99472B00A8819C /* Debug */,
+				4B4A2FE81B99472B00A8819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4A2FBC1B99472B00A8819C /* Project object */;
+}
